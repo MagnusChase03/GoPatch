@@ -87,6 +87,7 @@ func NewPatch(patchfile string) (*Patch, error) {
                 Address: currentAddress,
                 Data: data[start:],
             });
+            currentAddress += uint64(len(data[start:]));
 
         // Unrecognized pattern
         } else {
