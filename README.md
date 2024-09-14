@@ -50,7 +50,8 @@ Here is an example of gopatch being used:
 `patch.txt`
 ```
 1 0x0:
-2 0x676869
+2 0x67
+3 0x6869
 ```
 
 ```
